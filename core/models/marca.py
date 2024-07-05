@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Marca(models.Model):
     descricao = models.CharField(max_length=100)
     
