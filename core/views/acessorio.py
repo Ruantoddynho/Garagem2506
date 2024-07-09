@@ -5,5 +5,5 @@ from core.serializers import AcessorioSerializer
 
 
 class AcessorioViewSet(ModelViewSet):
-    query = Acessorio.objects.all()
+    queryset = Acessorio.objects.all()
     serializer_class = AcessorioSerializer

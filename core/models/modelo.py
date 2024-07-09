@@ -9,6 +9,6 @@ class Modelo(models.Model):
     categoria = models.ForeignKey(Categoria, on_delete=models.RESTRICT)
     
     def __str__ (self):
-        return f"{self.marca} ({self.id})"
+        return f"{self.marca}"
     
     

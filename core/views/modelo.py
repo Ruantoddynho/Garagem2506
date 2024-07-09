@@ -5,6 +5,6 @@ from core.serializers import ModeloSerializer
 
 
 class ModeloViewSet(ModelViewSet):
-    query = Modelo.objects.all()
+    queryset = Modelo.objects.all()
     serializer_class = ModeloSerializer
     

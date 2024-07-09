@@ -5,6 +5,6 @@ from core.serializers import MarcaSerializer
 
 
 class MarcaViewSet(ModelViewSet):
-    query = Marca.objects.all()
+    queryset = Marca.objects.all()
     serializer_class = MarcaSerializer
     

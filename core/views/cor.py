@@ -5,6 +5,6 @@ from core.serializers import CorSerializer
 
 
 class CorViewSet(ModelViewSet):
-    query = Cor.objects.all()
+    queryset = Cor.objects.all()
     serializer_class = CorSerializer
     
